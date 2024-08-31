@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #eee;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #000;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #161f6d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

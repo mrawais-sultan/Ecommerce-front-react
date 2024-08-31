@@ -1,0 +1,90 @@
+/* Filter.css */
+.filter {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.filter-search,
+.filter-category,
+.filter-price {
+  margin-bottom: 1rem;
+}
+
+.filter-search label,
+.filter-category label,
+.filter-price label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.filter-search input,
+.filter-category input,
+.filter-price input {
+  width: 100%;
+}
+
+.filter-category input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.filter-price span {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+
+.filter {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.filter-search,
+.filter-category,
+.filter-price {
+  margin-bottom: 15px;
+}
+
+.filter-search input,
+.filter-category input,
+.filter-price input[type="range"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.filter-category label {
+  display: block;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+.filter-price span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.apply-filters {
+  background-color: #00abe1;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.apply-filters:hover {
+  background-color: #008bb9;
+}

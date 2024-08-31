@@ -1,0 +1,15 @@
+/* components/Search.css */
+.search-bar {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
